@@ -1,0 +1,16 @@
+{
+  "menu": {
+    "home": "acasa",
+    "press": "press",
+    "our_team": "echipa noastră",
+    "stories": "povestiri",
+    "news": "știri",
+    "gallery": "galerie",
+    "press_releases": "comunicate de presă",
+    "press_about_us": "apăsați despre noi"
+  },
+  "home": {
+    "h1": "Împuternicirea liderilor minorităților",
+    "h2": "Acest proiect este susținut de Oficiul Federal de Externe al Germaniei"
+  }
+}

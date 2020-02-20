@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+@tailwind base;
+
+@tailwind components;
+
+html, body, #app {
+    @apply h-full;
+}
+
+@tailwind utilities;
+
+.general-enter,
+.general-leave-to {
+    opacity: 0;
+}
+.general-enter-active,
+.general-leave-active  {
+    transition: all .5s ease;
+}
