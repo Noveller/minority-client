@@ -11,7 +11,8 @@ const press = {
                 return {
                     id: pressItem.id,
                     title: pressItem.title.rendered,
-                    short_description: pressItem.short_description,
+                    content: pressItem.content.rendered,
+                    link: pressItem.link,
                     media: media ? media[0].media_details.sizes : null,
                     date: pressItem.date
                 }

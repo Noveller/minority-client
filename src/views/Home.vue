@@ -87,6 +87,13 @@
                 </div>
             </div>
         </div>
+        <div class="container m-auto">
+            <div class="px-3 pt-8 pb-3">
+                <div class="videoWrapper">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/IyPoYH_i20Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
         <div class="flex justify-center px-3 pt-12 pb-16">
                 <join-the-community />
         </div>
@@ -122,3 +129,19 @@
         }
     }
 </script>
+
+<style scoped>
+    .videoWrapper {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        padding-top: 25px;
+        height: 0;
+    }
+    .videoWrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+</style>

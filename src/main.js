@@ -12,7 +12,7 @@ Vue.config.productionTip = false;
 if (process.env.NODE_ENV === 'production') {
   ApiService.init('https://api.minority.md/wp-json/wp/v2/')
 } else {
-  ApiService.init('http://127.0.0.1/wp-json/wp/v2/')
+  ApiService.init('https://api.minority.md/wp-json/wp/v2/')
 }
 
 Vue.use(FlagIcon);

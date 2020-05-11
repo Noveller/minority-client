@@ -94,8 +94,8 @@
             pageChanged(page) {
                 this.setQuery({ page });
             },
-            readMore(id) {
-                this.$router.push({ path: `release/${id}` })
+            readMore(item) {
+               window.open(item.link, '_blank');
             },
             async getItems(params = {}) {
                 return await PressApi.all({

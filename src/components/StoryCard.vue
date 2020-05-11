@@ -1,7 +1,7 @@
 <template>
     <div class="w-full sm:w-1/3 md:w-1/4 lg:w-1/4 xl:w-1/5 px-3 my-3">
         <div class="flex flex-col h-full bg-white rounded-sm shadow-md overflow-hidden">
-            <img :src="item.media.large.source_url" alt="">
+            <img v-if="item.media" :src="item.media.large.source_url" alt="">
             <div class="px-2 flex flex-col flex-1">
                 <h3 class="text-gray-200 font-bold py-2">{{item.title}}</h3>
                 <div class="bg-orange-100 h-1 w-1/2 rounded-full"></div>

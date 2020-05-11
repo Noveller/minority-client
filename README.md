@@ -1,5 +1,16 @@
 # minority.md
 
+
+##Заголовок
+```
+<h3 class="text-lg pt-5 pb-4">Заголовок</h3>
+```
+
+##Параграф
+```
+<p class="pb-2">Заголовок</p>
+```
+
 ## Project setup
 ```
 npm install

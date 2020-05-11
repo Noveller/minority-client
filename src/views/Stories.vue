@@ -24,7 +24,7 @@
             <div class="container m-auto">
                 <div class="px-3 flex">
                     <h1 class="text-gray-300 text-2xl">
-                        Our Stories
+                        <span class="capitalize">{{$t('buttons.our_stories')}}</span>
                         <span class="block mt-2 rounded-sm h-1 bg-orange-100"></span>
                     </h1>
                 </div>

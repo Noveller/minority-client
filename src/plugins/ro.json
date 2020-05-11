@@ -12,5 +12,12 @@
   "home": {
     "h1": "Împuternicirea liderilor minorităților",
     "h2": "Acest proiect este susținut de Oficiul Federal de Externe al Germaniei"
+  },
+  "buttons": {
+    "our_stories": "povestiri"
+  },
+  "join_the_community": {
+    "text": "Proiectul a fost creat pentru a uni tineri activiști",
+    "button_text": "alăturați-vă comunității"
   }
 }
