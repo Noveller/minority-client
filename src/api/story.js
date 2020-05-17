@@ -11,12 +11,13 @@ const story = {
             data: data.map(pressItem => {
                 let media;
 
+                console.log(pressItem);
+
                 if(pressItem.hasOwnProperty('_embedded') && pressItem['_embedded'].hasOwnProperty('wp:featuredmedia')) {
                     media = pressItem['_embedded']['wp:featuredmedia'];
                 }
 
                 return {
-
                     id: pressItem.id,
                     title: pressItem.title.rendered,
                     content: pressItem.content.rendered,

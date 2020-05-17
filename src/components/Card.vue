@@ -8,7 +8,7 @@
                 <h5 class="leading-none text-sm font-bold text-gray-200" v-if="!vertical">{{item.title}}</h5>
                 <Heading :text="item.title" v-else />
                 <p class="text-xs text-gray-100" v-if="!vertical">{{createdAt}}</p>
-                <p class="py-2 text-xs leading-tight text-gray-200" v-html="item.content"></p>
+                <p class="py-2 text-xs leading-tight text-gray-200" v-html="item.short_description"></p>
             </div>
         </div>
         <div class="text-right">

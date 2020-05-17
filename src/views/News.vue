@@ -25,7 +25,6 @@
         <div class="bg-gray-200 py-3">
             <div class="container m-auto px-3">
                 <p class="text-white lg:w-1/2 m-auto text-sm text-center">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                 </p>
             </div>
         </div>

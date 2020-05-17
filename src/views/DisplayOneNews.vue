@@ -16,7 +16,7 @@
                     </div>
                 </div>
                 <div class="sm:w-1/2 sm:pl-6 mt-6 sm:mt-0 pb-4">
-                    <heading class="lg:w-1/2 mb-4" text="Latest press releases"></heading>
+                    <heading class="lg:w-1/2 mb-4" :text="$t('latest_press_releases')"></heading>
 
                     <div class="flex flex-wrap flex-col sm:flex-row">
                         <div class="py-3" v-for="(item, index) in items" :key="`item-${index}`">

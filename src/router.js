@@ -2,14 +2,14 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import SiteTemplate from "./templates/SiteTemplate";
 import PressRelease from "./views/PressRelease";
-import OurTeam from "./views/OurTeam";
+// import OurTeam from "./views/OurTeam";
 import Stories from "./views/Stories";
 import Story from "./views/Story";
 import Home from "./views/Home";
 import About from "./views/About";
 import DisplayPressRelease from "./views/DisplayPressRelease";
-import News from "./views/News";
-import OneNews from "./views/OneNews";
+// import News from "./views/News";
+// import OneNews from "./views/OneNews";
 import PressAboutUs from "./views/PressAboutUs";
 import DisplayPressAboutUs from "./views/DisplayPressAboutUs";
 import PressTemplate from "./templates/PressTemplate";
@@ -64,26 +64,26 @@ const siteChildrenRoutes = [
                 component: DisplayPressAboutUs,
                 name: 'display-press-about-us'
             },
-            {
-                path: 'news',
-                name: 'news',
-                component: News,
-                meta: {
-                    page_heading: 'headings.find_latest_news'
-                }
-            },
-            {
-                path: 'news/:id',
-                component: OneNews,
-                name: 'display-news'
-            },
+            // {
+            //     path: 'news',
+            //     name: 'news',
+            //     component: News,
+            //     meta: {
+            //         page_heading: 'headings.find_latest_news'
+            //     }
+            // },
+            // {
+            //     path: 'news/:id',
+            //     component: OneNews,
+            //     name: 'display-news'
+            // },
         ]
     },
-    {
-        path: 'team',
-        name: 'team',
-        component: OurTeam
-    },
+    // {
+    //     path: 'team',
+    //     name: 'team',
+    //     component: OurTeam
+    // },
     {
         path: 'stories',
         name: 'stories',

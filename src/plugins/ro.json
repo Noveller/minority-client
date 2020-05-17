@@ -19,5 +19,19 @@
   "join_the_community": {
     "text": "Proiectul a fost creat pentru a uni tineri activiști",
     "button_text": "alăturați-vă comunității"
-  }
+  },
+  "stories_text": "Poveștiri personale ale activiștilor despre rolul tinerilor minoritari în societate. 11 povești despre ei înșiși, despre semnificația și contribuția lor în societate. Participanții și-au prezentat compania pentru organele guvernamentale, mass-media, organizații internaționale și alte ONG-uri din Moldova și Germania. Aceasta a crescut gradul de conștientizare a problemelor tinerilor minoritari în rândul agențiilor guvernamentale și a publicului larg.",
+  "headings": {
+    "press_releases": "Press releases",
+    "news": "news",
+    "press_about_us": "Press about us",
+    "find_latest_news": "Find latest news",
+    "latest_news": "Latest news",
+    "all_news": "All news"
+  },
+  "card": {
+    "read_more": "Citeste mai mult"
+  },
+  "latest_press_releases": "Ultimele comunicate de presă",
+  "all_press_releases": "Totate comunicate de presă"
 }

@@ -13,6 +13,7 @@ const press = {
                     title: pressItem.title.rendered,
                     content: pressItem.content.rendered,
                     link: pressItem.link,
+                    short_description: pressItem.short_description,
                     media: media ? media[0].media_details.sizes : null,
                     date: pressItem.date
                 }

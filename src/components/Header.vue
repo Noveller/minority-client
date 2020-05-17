@@ -61,18 +61,18 @@
                             }
                         ]
                     },
-                    {
-                        title: 'menu.our_team',
-                        to: 'team'
-                    },
+                    // {
+                    //     title: 'menu.our_team',
+                    //     to: 'team'
+                    // },
                     {
                         title: 'menu.stories',
                         to: 'stories'
                     },
-                    {
-                        title: 'menu.news',
-                        to: 'news'
-                    },
+                    // {
+                    //     title: 'menu.news',
+                    //     to: 'news'
+                    // },
                     {
                         title: 'menu.gallery',
                         to: 'image-gallery'
